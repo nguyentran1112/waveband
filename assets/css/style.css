@@ -140,6 +140,7 @@ html{
 .slider-img{
      /* margin-top: 46px; */
     padding-top: 24px; 
+    margin-top: 24px;
     /* background-image: url('/assets/img/slider4.jpg') top center /cover no-repeat; */
     /* background-color: #333; */
     width: 100%;
@@ -154,9 +155,11 @@ html{
 .content-section{
     padding: 64px 0 112px;
     width: 800px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    
+    padding-left: 16px;
+    padding-right: 16px;
     
    
 }
@@ -319,6 +322,7 @@ html{
     font-size: 15px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    
 
 }
 .place-content a{
@@ -345,6 +349,8 @@ html{
     line-height: 1.6;
 
 }
+
+
 
 .place-buy-button{
     background: #FF4500;
