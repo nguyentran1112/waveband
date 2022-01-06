@@ -61,6 +61,7 @@ html{
     position: fixed;
     left: 0;
     right: 0;
+    overflow: hidden;
     
 }
 
@@ -69,6 +70,7 @@ html{
     float: right;
     cursor: pointer;
     padding: 0 21px;
+    
     
 }
 #header .search-icon{
@@ -81,6 +83,32 @@ html{
 #header .search-btn:hover{
     background-color: #f44336!important
 }
+
+#header .menu-btn{
+    
+    float: right;
+    display:none;
+    padding: 0 21px;
+    
+    
+}
+#header .menu-icon{
+    color: white;
+    font-size: 16px;
+    line-height: 46px;
+    
+
+}
+#header .menu-btn:hover {
+    background-color: #FF6699;
+    color: black !important;
+}
+
+#header .menu-btn:hover .menu-icon{
+    
+    color: black !important;
+}
+
 #nav{
     display: inline-block;
     
@@ -100,6 +128,8 @@ html{
     text-transform: uppercase; 
 }
 
+
+
 #nav .ti-angle-down{
    font-size: 14px
 }
@@ -116,9 +146,14 @@ html{
 #nav >li:hover >a, #nav .subnav li:hover{
     background-color: #FF6699;
     color: black;
+    
 
 }
-
+#nav li:hover .subnav{
+    display: block;
+    
+    
+}
 
 #nav .subnav{
     display: none;
@@ -128,9 +163,8 @@ html{
 
 }
 
-#nav li:hover .subnav{
-    display: block;
-}
+
+
 
 #nav .subnav a{
     color: black;
@@ -144,10 +178,11 @@ html{
     /* background-image: url('/assets/img/slider4.jpg') top center /cover no-repeat; */
     /* background-color: #333; */
     width: 100%;
+    
 }
 #content{
     height: 1000px;
-    background: #FFF0F5;
+    
     
     
 }
@@ -179,7 +214,7 @@ html{
     margin-top: 25px;
     margin-bottom: 25px;
     font-style: italic;
-    opacity: 0.7;
+    color: #C0C0C0;
 }
 
 #content .about{
