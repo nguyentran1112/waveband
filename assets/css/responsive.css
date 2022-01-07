@@ -24,6 +24,22 @@
         
     
     }
+    .s-button{
+        width: 100%
+    }
+    .place-buy-button{
+        width: 100%;
+    }
+    .s-col{
+        width: 100%;
+        
+    }
+    .s-mt8{
+        margin-top: 8px;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
     #content .member-item{
         width: 100%;
         margin-bottom: 30px;
