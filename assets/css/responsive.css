@@ -18,12 +18,6 @@
         display: block;
     }
 
-    #nav >li:hover >a, #nav .subnav li:hover{
-        background-color: #FF6699;
-        color: black;
-        
-    
-    }
     .s-button{
         width: 100%
     }

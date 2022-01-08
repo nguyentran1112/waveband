@@ -56,12 +56,12 @@ html{
 }
 #header{
     height: 46px;
-    background: linear-gradient(to right,#006699, #993399,#CC3399,#FF99FF, #336699, #663399 );
+    /* background: linear-gradient(to right,#006699, #993399,#CC3399,#FF99FF, #336699, #663399 ); */
+    background: red;
     top: 0;
     position: fixed;
     left: 0;
     right: 0;
-    overflow: hidden;
     
 }
 
@@ -70,7 +70,6 @@ html{
     float: right;
     cursor: pointer;
     padding: 0 21px;
-    
     
 }
 #header .search-icon{
@@ -83,32 +82,6 @@ html{
 #header .search-btn:hover{
     background-color: #f44336!important
 }
-
-#header .menu-btn{
-    
-    float: right;
-    display:none;
-    padding: 0 21px;
-    
-    
-}
-#header .menu-icon{
-    color: white;
-    font-size: 16px;
-    line-height: 46px;
-    
-
-}
-#header .menu-btn:hover {
-    background-color: #FF6699;
-    color: black !important;
-}
-
-#header .menu-btn:hover .menu-icon{
-    
-    color: black !important;
-}
-
 #nav{
     display: inline-block;
     
@@ -128,8 +101,6 @@ html{
     text-transform: uppercase; 
 }
 
-
-
 #nav .ti-angle-down{
    font-size: 14px
 }
@@ -146,14 +117,7 @@ html{
 #nav >li:hover >a, #nav .subnav li:hover{
     background-color: #FF6699;
     color: black;
-    
 
-}
-#nav li:hover .subnav{
-    display: block !important;
-    position: fixed !important;
-    
-    
 }
 
 
@@ -165,8 +129,9 @@ html{
 
 }
 
-
-
+#nav li:hover .subnav{
+    display: block;
+}
 
 #nav .subnav a{
     color: black;
@@ -174,16 +139,16 @@ html{
     line-height: 38px;
 }
 .slider-img{
-     /* margin-top: 46px; */
     padding-top: 24px; 
-    margin-top: 24px;
-    /* background-image: url('/assets/img/slider4.jpg') top center /cover no-repeat; */
-    /* background-color: #333; */
     width: 100%;
+    margin-top: 24px;
     
 }
+
+
 #content{
     height: 1000px;
+    background: #FFF0F5;
     
     
     
@@ -192,11 +157,9 @@ html{
 .content-section{
     padding: 64px 0 112px;
     width: 800px;
-    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    
     
    
 }
@@ -216,7 +179,7 @@ html{
     margin-top: 25px;
     margin-bottom: 25px;
     font-style: italic;
-    color: #C0C0C0;
+    opacity: 0.7;
 }
 
 #content .about{
@@ -359,7 +322,6 @@ html{
     font-size: 15px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    
 
 }
 .place-content a{
@@ -386,8 +348,6 @@ html{
     line-height: 1.6;
 
 }
-
-
 
 .place-buy-button{
     background: #FF4500;
@@ -494,7 +454,6 @@ html{
     font-size: 15px;
     padding: 18px;
     cursor: pointer;
-    text-align: center;
 }
 
 #buy-ticket:hover{
